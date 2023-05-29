@@ -26,33 +26,75 @@ body {
 }
 
 h1 {
-  font-size: 12.25em;
-  line-height: 1em;
-  letter-spacing: .03em;
+  font-size: .65em;
+  line-height: .7em;
+  letter-spacing: .3em;
   margin-bottom: 2px;
+  font-weight: normal;
+  
 }
 
 h2 {
-  font-size: 5.1em;
-  line-height: 1em;
-  letter-spacing: .03em;
+  font-size: 4em;
+  line-height: 1.5em;
+  letter-spacing: .01em;
   margin-bottom: 2px;
 }
 
 h3 {
-  font-weight: normal;
-  letter-spacing: .3em;
+  font-size: .75em;
+  letter-spacing: .2em;
   margin-bottom: 18px;
-  line-height: 1em;
+  line-height: .1em;
+  font-weight: normal;
 }
 
 h4 {
   font-weight: normal;
-  font-size: .7em;
-  letter-spacing: .4em;
+  font-size: .68em;
+  letter-spacing: .3em;
   margin-bottom: 9px;
+  line-height: 1.4em;
+}
+h5 {
+  font-weight: bold;
+  font-size: 8em;
+  letter-spacing: .3em;
+  margin-bottom: 1px;
   line-height: 1em;
 }
+
+h6 {
+font-weight: normal;
+font-size: .9em;
+letter-spacing: .2em;
+margin-bottom: 15px;
+}
+
+h7 {
+font-weight: normal;
+font-size: .9em;
+letter-spacing: .15em;
+margin-bottom: 15px;
+}
+
+h8 {
+font-weight: normal;
+font-size: .9em;
+letter-spacing: .2em;
+margin-top: 10px;
+position: relative;
+top: -25px;
+}
+
+h9 {
+  font-weight: normal;
+  font-size: .9em;
+  letter-spacing: .2em;
+  margin-top: 10px;
+  position: relative;
+  top: -25px;
+  }
 
 p {
   font-size: .9em;
@@ -72,7 +114,7 @@ span {
 
 img {
   display: inline-block;
-  margin: 0 40px;
+  margin: 8px 30px;
 }
 
 .wrapper {
@@ -100,7 +142,7 @@ img {
 #back {
   background: rgba(247,211,27,1);
   text-align: center;
-  padding: 130px 35px 35px;
+  padding: 130px 50px 35px;
 }
 
 #title-box {
